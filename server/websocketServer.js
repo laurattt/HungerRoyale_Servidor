@@ -33,6 +33,8 @@ const ATTACK_ACTIVE_MS = 180;
 const HIT_INVULN_MS = 650;
 const RESPAWN_MS = 1800;
 const HEART_HEAL = 1;
+const MIN_PLAYERS_TO_START = 2;
+const LOBBY_COUNTDOWN_SECONDS = 15;
 
 const colors = ['yellow', 'white', 'orange', 'grey', 'green'];
 const spawnPoints = [
@@ -76,6 +78,8 @@ const players = new Map(); // ws -> player
 const swords = new Map(initialSwords.map(s => [s.id, { ...s }]));
 const hearts = new Map(initialHearts.map(h => [h.id, { ...h }]));
 let nextColorIndex = 0;
+let lobbyPhase = 'waiting'; // waiting | countdown | playing
+let lobbyCountdownStartedAt = null;
 
 function sendTo(ws, payload) {
   if (ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify(payload));
@@ -85,6 +89,13 @@ function broadcast(payload) {
   const data = JSON.stringify(payload);
   for (const ws of players.keys()) {
     if (ws.readyState === WebSocket.OPEN) ws.send(data);
+  }
+}
+
+function broadcastExcept(excludedWs, payload) {
+  const data = JSON.stringify(payload);
+  for (const ws of players.keys()) {
+    if (ws !== excludedWs && ws.readyState === WebSocket.OPEN) ws.send(data);
   }
 }
 
@@ -137,16 +148,60 @@ function createPlayer(ws, name) {
   };
 }
 
+
+function updateLobby(now = Date.now()) {
+  if (lobbyPhase === 'playing') return;
+
+  if (players.size < MIN_PLAYERS_TO_START) {
+    lobbyPhase = 'waiting';
+    lobbyCountdownStartedAt = null;
+    return;
+  }
+
+  if (lobbyCountdownStartedAt == null) {
+    lobbyPhase = 'countdown';
+    lobbyCountdownStartedAt = now;
+    return;
+  }
+
+  const elapsed = now - lobbyCountdownStartedAt;
+  if (elapsed >= LOBBY_COUNTDOWN_SECONDS * 1000) {
+    lobbyPhase = 'playing';
+  } else {
+    lobbyPhase = 'countdown';
+  }
+}
+
+function serializeLobby(now = Date.now()) {
+  updateLobby(now);
+  const startsAt = lobbyCountdownStartedAt == null
+    ? null
+    : lobbyCountdownStartedAt + LOBBY_COUNTDOWN_SECONDS * 1000;
+  const countdown = startsAt == null
+    ? null
+    : Math.max(0, Math.ceil((startsAt - now) / 1000));
+
+  return {
+    phase: lobbyPhase,
+    minPlayers: MIN_PLAYERS_TO_START,
+    countdown,
+    countdownStartedAt: lobbyCountdownStartedAt,
+    startsAt,
+  };
+}
+
 function serializeState() {
+  const now = Date.now();
   return {
     type: 'STATE',
-    serverTime: Date.now(),
+    serverTime: now,
+    lobby: serializeLobby(now),
     players: [...players.values()].map(p => ({
       id: p.id, name: p.name, color: p.color, x: p.x, y: p.y,
       vx: p.vx, vy: p.vy, facing: p.facing, hp: p.hp, maxHp: p.maxHp,
       hasSword: p.hasSword, alive: p.alive, score: p.score,
-      attacking: Date.now() < p.attackUntil,
-      invulnerable: Date.now() < p.invulnerableUntil,
+      attacking: now < p.attackUntil,
+      invulnerable: now < p.invulnerableUntil,
     })),
     swords: [...swords.values()].map(s => ({ id: s.id, x: s.x, y: s.y, w: s.w, h: s.h, active: s.active })),
     hearts: [...hearts.values()].map(h => ({ id: h.id, x: h.x, y: h.y, w: h.w, h: h.h, active: h.active })),
@@ -281,12 +336,36 @@ async function iniciarServidor() {
 
       switch (msg.type) {
         case 'JOIN': {
+          if (players.has(ws)) {
+            const current = players.get(ws);
+            sendTo(ws, { type: 'JOINED', id: current.id, name: current.name, color: current.color });
+            sendTo(ws, serializeState());
+            return;
+          }
+
+          if (players.size >= colors.length) {
+            sendTo(ws, { type: 'ERROR', message: 'Game is full' });
+            return;
+          }
+
           const name = sanitizeName(msg.name);
           const p = createPlayer(ws, name);
           players.set(ws, p);
+
+          // Igual que en el servidor original: JOINED solo al que entra.
           sendTo(ws, { type: 'JOINED', id: p.id, name: p.name, color: p.color });
-          broadcast({ type: 'PLAYER_JOINED', id: p.id, name: p.name, color: p.color });
-          sendTo(ws, serializeState());
+
+          // Igual que en el servidor original: PLAYER_JOINED solo al resto, nunca al propio jugador.
+          broadcastExcept(ws, { type: 'PLAYER_JOINED', id: p.id, name: p.name, color: p.color });
+
+          // Compatibilidad con el lobby antiguo: al nuevo le mandamos los jugadores que ya estaban.
+          const currentPlayers = [...players.entries()]
+            .filter(([otherWs]) => otherWs !== ws)
+            .map(([, other]) => ({ id: other.id, name: other.name, color: other.color }));
+          sendTo(ws, { type: 'PLAYER_LIST', players: currentPlayers });
+
+          // Fuente de verdad para el lobby nuevo y el juego: foto completa sincronizada.
+          broadcast(serializeState());
           logger.info(`JOIN: ${p.name} (${p.id})`);
           break;
         }
@@ -320,6 +399,7 @@ async function iniciarServidor() {
       if (p) {
         players.delete(ws);
         broadcast({ type: 'PLAYER_LEFT', id: p.id, name: p.name });
+        broadcast(serializeState());
         logger.info(`LEFT: ${p.name} (${p.id})`);
       }
     });
