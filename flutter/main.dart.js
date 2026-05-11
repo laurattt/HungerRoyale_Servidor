@@ -74672,14 +74672,14 @@ for(s=this.x,r=0;r<5;++r){q=B.Fj[r]
 p=B.I_.h(0,q)
 p.toString
 s.m(0,"anim_stop_"+q+"_duck",new A.f5(p,0,1,7,!0))
-p=B.HY.h(0,q)
+p=B.HZ.h(0,q)
 p.toString
 s.m(0,"anim_right_"+q+"_duck",new A.f5(p,0,3,7.5,!0))
 p=B.I1.h(0,q)
 p.toString
 s.m(0,"anim_left_"+q+"_duck",new A.f5(p,0,3,7.5,!0))
 p=q==="green"?"anim_die_duck_green":"anim_die_"+q+"_duck"
-o=B.HZ.h(0,q)
+o=B.HY.h(0,q)
 o.toString
 s.m(0,p,new A.f5(o,0,1,7,!1))
 s.m(0,"anim_swd_left_"+q,new A.f5("media/sword_left_duck_"+q+".png",1,3,8,!0))
@@ -80553,8 +80553,8 @@ B.MC=new A.a2(B.aD,!1,!0,!0,!1,B.m)
 B.Ms=new A.a2(B.aD,!1,!1,!0,!1,B.m)
 B.t6=new A.cI([B.Mx,B.n,B.M3,B.n,B.xy,B.n,B.xv,B.n,B.Mo,B.n,B.Mf,B.n,B.MC,B.n,B.Ms,B.n],t.Fp)
 B.et={yellow:0,white:1,orange:2,grey:3,green:4}
-B.HY=new A.bp(B.et,["media/right_yellow_duck.png","media/right_white_duck.png","media/orange_duck_right.png","media/right_grey_duck.png","media/right_green_duck.png"],t.li)
-B.HZ=new A.bp(B.et,["media/die_yellow_duck.png","media/die_white_duck.png","media/die_orange_duck.png","media/die_duck_grey.png","media/die_duck_green.png"],t.li)
+B.HY=new A.bp(B.et,["media/die_yellow_duck.png","media/die_white_duck.png","media/die_orange_duck.png","media/die_duck_grey.png","media/die_duck_green (1).png"],t.li)
+B.HZ=new A.bp(B.et,["media/right_yellow_duck.png","media/right_white_duck.png","media/orange_duck_right.png","media/right_grey_duck.png","media/right_green_duck.png"],t.li)
 B.I_=new A.bp(B.et,["media/stop_yellow_duck.png","media/stop_white_duck.png","media/stop_orange_duck.png","media/stop_grey_duck.png","media/stop_green_duck.png"],t.li)
 B.I0=new A.bp(B.et,["anim_die_yellow_duck","anim_die_white_duck","anim_die_orange_duck","anim_die_grey_duck","anim_die_duck_green"],t.li)
 B.I1=new A.bp(B.et,["media/left_yellow_duck.png","media/left_white_duck.png","media/orange_duck_left.png","media/left_grey_duck.png","media/left_green_duck.png"],t.li)
