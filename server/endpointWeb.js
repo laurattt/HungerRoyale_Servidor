@@ -21,7 +21,7 @@ function handleWeb(req, res) {
   if (urlPath === '/duckgame' || urlPath === '/duckgame/') urlPath = '/duckgame/index.html';
   if (!urlPath.startsWith('/duckgame')) { res.writeHead(404); return res.end('Not found'); }
 
-  const filePath = path.join(FLUTTER_DIR, urlPath.replace('/duckgame', ''));
+  const filePath = path.join(FLUTTER_DIR, decodeURIComponent(urlPath.replace('/duckgame', '')));
   fs.readFile(filePath, (err, data) => {
     if (err) { res.writeHead(404); return res.end('Not found'); }
     const ext = path.extname(filePath);
