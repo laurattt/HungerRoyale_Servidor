@@ -686,7 +686,7 @@
     {
       "id": "anim_1778403208319912",
       "name": "anim_right_green_duck",
-      "mediaFile": "media/right_green_duck (1).png",
+      "mediaFile": "media/right_green_duck.png",
       "startFrame": 0,
       "endFrame": 3,
       "fps": 7.5,

@@ -405,7 +405,7 @@
     },
     {
       "name": "right_green_duck",
-      "fileName": "media/right_green_duck (1).png",
+      "fileName": "media/right_green_duck.png",
       "mediaType": "spritesheet",
       "tileWidth": 31,
       "tileHeight": 28,
