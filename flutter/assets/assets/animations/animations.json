@@ -1,0 +1,2492 @@
+{
+  "animationGroups": [
+    {
+      "id": "__main__",
+      "name": "Main",
+      "collapsed": false
+    }
+  ],
+  "animations": [
+    {
+      "id": "anim_1777919923689523",
+      "name": "anim_stop_yellow_duck",
+      "mediaFile": "media/stop_yellow_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.4695693888253242,
+      "anchorY": 0.6251633889251407,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1777920338567486_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.2,
+          "y": 0.25,
+          "width": 0.5333333333333333,
+          "height": 0.71875
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.4695693888253242,
+          "anchorY": 0.6251633889251407,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1777920338567486_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2,
+              "y": 0.25,
+              "width": 0.5333333333333333,
+              "height": 0.71875
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5486414036676838,
+          "anchorY": 0.6277863642898431,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1777920352917846_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.26666666666666666,
+              "y": 0.21875,
+              "width": 0.5333333333333333,
+              "height": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778400701877455",
+      "name": "anim_stop_white_duck",
+      "mediaFile": "media/stop_white_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.46542079837274347,
+      "anchorY": 0.623951182303585,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778400922711144_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.2,
+          "y": 0.25,
+          "width": 0.5333333333333333,
+          "height": 0.71875
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.46542079837274347,
+          "anchorY": 0.623951182303585,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778400922711144_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2,
+              "y": 0.25,
+              "width": 0.5333333333333333,
+              "height": 0.71875
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5284769895753878,
+          "anchorY": 0.627765064836003,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778401004955063_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.26666666666666666,
+              "y": 0.21875,
+              "width": 0.5333333333333333,
+              "height": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778400896063940",
+      "name": "anim_stop_orange_duck",
+      "mediaFile": "media/stop_orange_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.5040681413679126,
+      "anchorY": 0.593440122044241,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404482770700_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.23333333333333334,
+          "y": 0.22580645161290322,
+          "width": 0.5333333333333333,
+          "height": 0.7419354838709677
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.5040681413679126,
+          "anchorY": 0.593440122044241,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404482770700_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.23333333333333334,
+              "y": 0.22580645161290322,
+              "width": 0.5333333333333333,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5691584032545131,
+          "anchorY": 0.572463768115942,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404486194135_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3,
+              "y": 0.1935483870967742,
+              "width": 0.5333333333333333,
+              "height": 0.7741935483870968
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778401214413620",
+      "name": "anim_stop_grey_duck",
+      "mediaFile": "media/stop_grey_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.44101195016526823,
+      "anchorY": 0.564836003051106,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404490598003_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.16666666666666666,
+          "y": 0.2,
+          "width": 0.5333333333333333,
+          "height": 0.7666666666666667
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.44101195016526823,
+          "anchorY": 0.564836003051106,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404490598003_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.2,
+              "width": 0.5333333333333333,
+              "height": 0.7666666666666667
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.4979659293160437,
+          "anchorY": 0.543859649122807,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404493648233_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.23333333333333334,
+              "y": 0.16666666666666666,
+              "width": 0.5333333333333333,
+              "height": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778401400611728",
+      "name": "anim_stop_green_duck",
+      "mediaFile": "media/stop_green_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.447114162217137,
+      "anchorY": 0.580091533180778,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404497601898_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.16666666666666666,
+          "y": 0.2,
+          "width": 0.5333333333333333,
+          "height": 0.7666666666666667
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.447114162217137,
+          "anchorY": 0.580091533180778,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404497601898_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.2,
+              "width": 0.5333333333333333,
+              "height": 0.7666666666666667
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5020340706839562,
+          "anchorY": 0.505720823798627,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404500472066_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.23333333333333334,
+              "y": 0.16666666666666666,
+              "width": 0.5333333333333333,
+              "height": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778402499815107",
+      "name": "anim_right_yellow_duck",
+      "mediaFile": "media/right_yellow_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.48474446987032804,
+      "anchorY": 0.6372997711670481,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778402596313944_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.22580645161290322,
+          "y": 0.25806451612903225,
+          "width": 0.5161290322580645,
+          "height": 0.7419354838709677
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.48474446987032804,
+          "anchorY": 0.6372997711670481,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402596313944_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.22580645161290322,
+              "y": 0.25806451612903225,
+              "width": 0.5161290322580645,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.540045766590389,
+          "anchorY": 0.581998474446987,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402670927212_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.1935483870967742,
+              "width": 0.4838709677419355,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.580091533180778,
+          "anchorY": 0.6220442410373761,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402676177516_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.22580645161290322,
+              "width": 0.45161290322580644,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6048817696414951,
+          "anchorY": 0.6487414187643021,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402681571626_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.41935483870967744,
+              "y": 0.25806451612903225,
+              "width": 0.41935483870967744,
+              "height": 0.7419354838709677
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778402826559709",
+      "name": "anim_right_white_duck",
+      "mediaFile": "media/right_white_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.48855835240274603,
+      "anchorY": 0.6468344774980931,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778402843628441_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.22580645161290322,
+          "y": 0.25806451612903225,
+          "width": 0.5161290322580645,
+          "height": 0.7419354838709677
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.48855835240274603,
+          "anchorY": 0.6468344774980931,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402843628441_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.22580645161290322,
+              "y": 0.25806451612903225,
+              "width": 0.5161290322580645,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.543859649122807,
+          "anchorY": 0.5781845919145691,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402848826207_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.1935483870967742,
+              "width": 0.4838709677419355,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.547673531655225,
+          "anchorY": 0.6086956521739131,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402853757932_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.22580645161290322,
+              "width": 0.45161290322580644,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6086956521739131,
+          "anchorY": 0.644927536231884,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402859328154_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.41935483870967744,
+              "y": 0.25806451612903225,
+              "width": 0.41935483870967744,
+              "height": 0.7419354838709677
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778402939599602",
+      "name": "anim_right_orange_duck",
+      "mediaFile": "media/orange_duck_right.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.498093058733791,
+      "anchorY": 0.5972540045766591,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778402952397303_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.22580645161290322,
+          "y": 0.22580645161290322,
+          "width": 0.5161290322580645,
+          "height": 0.7419354838709677
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.498093058733791,
+          "anchorY": 0.5972540045766591,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402952397303_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.22580645161290322,
+              "y": 0.22580645161290322,
+              "width": 0.5161290322580645,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.547673531655225,
+          "anchorY": 0.543859649122807,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402957089467_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.16129032258064516,
+              "width": 0.4838709677419355,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5762776506483601,
+          "anchorY": 0.5495804729214341,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402966223373_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.1935483870967742,
+              "width": 0.45161290322580644,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6048817696414951,
+          "anchorY": 0.6125095347063311,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778402971020591_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.41935483870967744,
+              "y": 0.22580645161290322,
+              "width": 0.41935483870967744,
+              "height": 0.7419354838709677
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403025274575",
+      "name": "anim_right_grey_duck",
+      "mediaFile": "media/right_grey_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.46210723161339534,
+      "anchorY": 0.551487414187643,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404514893349_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.1935483870967742,
+          "y": 0.14285714285714285,
+          "width": 0.5161290322580645,
+          "height": 0.8214285714285714
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.46210723161339534,
+          "anchorY": 0.551487414187643,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404514893349_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.1935483870967742,
+              "y": 0.14285714285714285,
+              "width": 0.5161290322580645,
+              "height": 0.8214285714285714
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5275583770084398,
+          "anchorY": 0.49046529366895497,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404521005904_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.07142857142857142,
+              "width": 0.4838709677419355,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5516719568908246,
+          "anchorY": 0.541952707856598,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404525497891_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.10714285714285714,
+              "width": 0.45161290322580644,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.5878423267144017,
+          "anchorY": 0.5743707093821511,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404530290123_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3870967741935484,
+              "y": 0.14285714285714285,
+              "width": 0.41935483870967744,
+              "height": 0.8214285714285714
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403208319912",
+      "name": "anim_right_green_duck",
+      "mediaFile": "media/right_green_duck (1).png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.46382963017642287,
+      "anchorY": 0.564836003051106,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404537254479_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.1935483870967742,
+          "y": 0.14285714285714285,
+          "width": 0.5161290322580645,
+          "height": 0.8214285714285714
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.46382963017642287,
+          "anchorY": 0.564836003051106,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404537254479_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.1935483870967742,
+              "y": 0.14285714285714285,
+              "width": 0.5161290322580645,
+              "height": 0.8214285714285714
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5344479712605498,
+          "anchorY": 0.5,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404542024504_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.07142857142857142,
+              "width": 0.4838709677419355,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.549949558327797,
+          "anchorY": 0.517162471395881,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404547332624_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.10714285714285714,
+              "width": 0.45161290322580644,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.5964543195295391,
+          "anchorY": 0.547673531655225,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404553055028_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3870967741935484,
+              "y": 0.14285714285714285,
+              "width": 0.41935483870967744,
+              "height": 0.8214285714285714
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403311737584",
+      "name": "anim_left_yellow_duck",
+      "mediaFile": "media/left_yellow_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.48474446987032804,
+      "anchorY": 0.589626239511823,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778403336629461_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.25806451612903225,
+          "y": 0.22580645161290322,
+          "width": 0.41935483870967744,
+          "height": 0.7741935483870968
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.48474446987032804,
+          "anchorY": 0.589626239511823,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403336629461_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.25806451612903225,
+              "y": 0.22580645161290322,
+              "width": 0.41935483870967744,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5152555301296721,
+          "anchorY": 0.5762776506483601,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403343949316_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.25806451612903225,
+              "y": 0.1935483870967742,
+              "width": 0.4838709677419355,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.547673531655225,
+          "anchorY": 0.620137299771167,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403349111204_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.25806451612903225,
+              "width": 0.41935483870967744,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.5839054157131961,
+          "anchorY": 0.5877192982456141,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403354995052_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.22580645161290322,
+              "width": 0.45161290322580644,
+              "height": 0.7741935483870968
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403434727298",
+      "name": "anim_left_white_duck",
+      "mediaFile": "media/left_white_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.48093058733791005,
+      "anchorY": 0.6106025934401221,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778403456035137_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.25806451612903225,
+          "y": 0.22580645161290322,
+          "width": 0.41935483870967744,
+          "height": 0.7741935483870968
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.48093058733791005,
+          "anchorY": 0.6106025934401221,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403456035137_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.25806451612903225,
+              "y": 0.22580645161290322,
+              "width": 0.41935483870967744,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5114416475972541,
+          "anchorY": 0.5877192982456141,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403461816078_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.25806451612903225,
+              "y": 0.1935483870967742,
+              "width": 0.4838709677419355,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.547673531655225,
+          "anchorY": 0.6315789473684211,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403466411872_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.25806451612903225,
+              "width": 0.41935483870967744,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.580091533180778,
+          "anchorY": 0.6048817696414951,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403475823261_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.22580645161290322,
+              "width": 0.45161290322580644,
+              "height": 0.7741935483870968
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403535409824",
+      "name": "anim_left_orange_duck",
+      "mediaFile": "media/orange_duck_left.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.446605644546148,
+      "anchorY": 0.5743707093821511,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778403556585307_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.22580645161290322,
+          "y": 0.1935483870967742,
+          "width": 0.41935483870967744,
+          "height": 0.7741935483870968
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.446605644546148,
+          "anchorY": 0.5743707093821511,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403556585307_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.22580645161290322,
+              "y": 0.1935483870967742,
+              "width": 0.41935483870967744,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.482837528604119,
+          "anchorY": 0.5495804729214341,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403563271023_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.22580645161290322,
+              "y": 0.16129032258064516,
+              "width": 0.4838709677419355,
+              "height": 0.7741935483870968
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.513348588863463,
+          "anchorY": 0.5858123569794051,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403567812908_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.22580645161290322,
+              "width": 0.41935483870967744,
+              "height": 0.7419354838709677
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.5495804729214341,
+          "anchorY": 0.5781845919145691,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778403573755409_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3225806451612903,
+              "y": 0.1935483870967742,
+              "width": 0.45161290322580644,
+              "height": 0.7741935483870968
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403676388969",
+      "name": "anim_left_grey_duck",
+      "mediaFile": "media/left_grey_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.5086119928151375,
+      "anchorY": 0.541952707856598,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404571863126_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.2903225806451613,
+          "y": 0.10714285714285714,
+          "width": 0.41935483870967744,
+          "height": 0.8571428571428571
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.5086119928151375,
+          "anchorY": 0.541952707856598,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404571863126_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.10714285714285714,
+              "width": 0.41935483870967744,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5465047612017421,
+          "anchorY": 0.49237223493516397,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404578066631_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.07142857142857142,
+              "width": 0.4838709677419355,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5775079353362368,
+          "anchorY": 0.562929061784897,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404583149660_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.14285714285714285,
+              "width": 0.41935483870967744,
+              "height": 0.8214285714285714
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6136783051598139,
+          "anchorY": 0.520976353928299,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404589344926_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3870967741935484,
+              "y": 0.10714285714285714,
+              "width": 0.45161290322580644,
+              "height": 0.8571428571428571
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778403743002243",
+      "name": "anim_left_green_duck",
+      "mediaFile": "media/left_green_duck.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.5103343913781649,
+      "anchorY": 0.555301296720061,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404597166603_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.2903225806451613,
+          "y": 0.10714285714285714,
+          "width": 0.41935483870967744,
+          "height": 0.8571428571428571
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.5103343913781649,
+          "anchorY": 0.555301296720061,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404597166603_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.10714285714285714,
+              "width": 0.41935483870967744,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5447823626387146,
+          "anchorY": 0.517162471395881,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404601970463_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2903225806451613,
+              "y": 0.07142857142857142,
+              "width": 0.4838709677419355,
+              "height": 0.8571428571428571
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5654511453950445,
+          "anchorY": 0.564836003051106,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404608704457_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3548387096774194,
+              "y": 0.14285714285714285,
+              "width": 0.41935483870967744,
+              "height": 0.8214285714285714
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6119559065967866,
+          "anchorY": 0.562929061784897,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404613994807_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3870967741935484,
+              "y": 0.10714285714285714,
+              "width": 0.45161290322580644,
+              "height": 0.8571428571428571
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778404415863548",
+      "name": "anim_die_yellow_duck",
+      "mediaFile": "media/die_yellow_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 1.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.469718817591925,
+      "anchorY": 0.6162220620043259,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404629014293_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.0967741935483871,
+          "y": 0.3,
+          "width": 0.7096774193548387,
+          "height": 0.65
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.469718817591925,
+          "anchorY": 0.6162220620043259,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404629014293_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.0967741935483871,
+              "y": 0.3,
+              "width": 0.7096774193548387,
+              "height": 0.65
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.4826964671953857,
+          "anchorY": 0.6408074981975488,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404638004410_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.12903225806451613,
+              "y": 0.3,
+              "width": 0.7096774193548387,
+              "height": 0.65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778404673146584",
+      "name": "anim_die_white_duck",
+      "mediaFile": "media/die_white_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 1.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.4899062725306417,
+      "anchorY": 0.6452775775054074,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404688746081_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.12903225806451613,
+          "y": 0.3,
+          "width": 0.7096774193548387,
+          "height": 0.65
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.4899062725306417,
+          "anchorY": 0.6452775775054074,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404688746081_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.12903225806451613,
+              "y": 0.3,
+              "width": 0.7096774193548387,
+              "height": 0.65
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5158615717375631,
+          "anchorY": 0.6452775775054074,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404700263916_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16129032258064516,
+              "y": 0.3,
+              "width": 0.7096774193548387,
+              "height": 0.65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778404773566664",
+      "name": "anim_die_orange_duck",
+      "mediaFile": "media/die_orange_duck.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 1.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.49855803893294875,
+      "anchorY": 0.627499715402421,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404806973570_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.13333333333333333,
+          "y": 0.2631578947368421,
+          "width": 0.7333333333333333,
+          "height": 0.6842105263157895
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.49855803893294875,
+          "anchorY": 0.627499715402421,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404806973570_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.13333333333333333,
+              "y": 0.2631578947368421,
+              "width": 0.7333333333333333,
+              "height": 0.6842105263157895
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5663302090843547,
+          "anchorY": 0.6343300572989792,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404813209087_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2,
+              "y": 0.2631578947368421,
+              "width": 0.7333333333333333,
+              "height": 0.6842105263157895
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778404885881692",
+      "name": "anim_die_grey_duck",
+      "mediaFile": "media/die_duck_grey.png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 1.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.45241528478731075,
+      "anchorY": 0.6519826964671955,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404897116094_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.0967741935483871,
+          "y": 0.3,
+          "width": 0.7096774193548387,
+          "height": 0.65
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.45241528478731075,
+          "anchorY": 0.6519826964671955,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404897116094_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.0967741935483871,
+              "y": 0.3,
+              "width": 0.7096774193548387,
+              "height": 0.65
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.4826964671953857,
+          "anchorY": 0.6519826964671955,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404905941896_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.12903225806451613,
+              "y": 0.3,
+              "width": 0.7096774193548387,
+              "height": 0.65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778404952578798",
+      "name": "anim_die_duck_green",
+      "mediaFile": "media/die_duck_green (1).png",
+      "startFrame": 0,
+      "endFrame": 1,
+      "fps": 1.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.4754866618601297,
+      "anchorY": 0.6081470800288392,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778404959755189_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.1,
+          "y": 0.3,
+          "width": 0.7333333333333333,
+          "height": 0.65
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.4754866618601297,
+          "anchorY": 0.6081470800288392,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404959755189_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.1,
+              "y": 0.3,
+              "width": 0.7333333333333333,
+              "height": 0.65
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5317231434751262,
+          "anchorY": 0.6059841384282625,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778404967799587_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.3,
+              "width": 0.7333333333333333,
+              "height": 0.65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778428408950066",
+      "name": "anim_swd_left_green",
+      "mediaFile": "media/sword_left_duck_green.png",
+      "startFrame": 1,
+      "endFrame": 3,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.658276125095347,
+      "anchorY": 0.658276125095347,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778428443094383_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.4444444444444444,
+          "y": 0.26666666666666666,
+          "width": 0.4444444444444444,
+          "height": 0.7333333333333333
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 1,
+          "anchorX": 0.658276125095347,
+          "anchorY": 0.658276125095347,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428443094383_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.4444444444444444,
+              "y": 0.26666666666666666,
+              "width": 0.4444444444444444,
+              "height": 0.7333333333333333
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.658276125095347,
+          "anchorY": 0.658276125095347,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428443094383_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.4444444444444444,
+              "y": 0.26666666666666666,
+              "width": 0.4444444444444444,
+              "height": 0.7333333333333333
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.658276125095347,
+          "anchorY": 0.658276125095347,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428443094383_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.4444444444444444,
+              "y": 0.26666666666666666,
+              "width": 0.4444444444444444,
+              "height": 0.7333333333333333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778428500712018",
+      "name": "anim_swd_left_grey",
+      "mediaFile": "media/sword_left_duck_grey.png",
+      "startFrame": 1,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6544622425629291,
+      "anchorY": 0.6315789473684211,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778428559870854_1",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.3333333333333333,
+          "y": 0.28888888888888886,
+          "width": 0.5777777777777777,
+          "height": 0.6888888888888889
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 1,
+          "anchorX": 0.6544622425629291,
+          "anchorY": 0.6315789473684211,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428559870854_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.28888888888888886,
+              "width": 0.5777777777777777,
+              "height": 0.6888888888888889
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.6544622425629291,
+          "anchorY": 0.6315789473684211,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428559870854_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.28888888888888886,
+              "width": 0.5777777777777777,
+              "height": 0.6888888888888889
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6544622425629291,
+          "anchorY": 0.6315789473684211,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428559870854_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.28888888888888886,
+              "width": 0.5777777777777777,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778428660847391",
+      "name": "anim_swd_left_orange",
+      "mediaFile": "media/sword_left_duck_orange.png",
+      "startFrame": 1,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6468344774980931,
+      "anchorY": 0.6277650648360031,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778428710204077_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.3333333333333333,
+          "y": 0.28888888888888886,
+          "width": 0.6,
+          "height": 0.6888888888888889
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 1,
+          "anchorX": 0.6468344774980931,
+          "anchorY": 0.6277650648360031,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428710204077_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.28888888888888886,
+              "width": 0.6,
+              "height": 0.6888888888888889
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.6468344774980931,
+          "anchorY": 0.6277650648360031,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428710204077_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.28888888888888886,
+              "width": 0.6,
+              "height": 0.6888888888888889
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.6468344774980931,
+          "anchorY": 0.6277650648360031,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428710204077_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.28888888888888886,
+              "width": 0.6,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778428869624808",
+      "name": "anim_swd_left_white",
+      "mediaFile": "media/sword_left_duck_white.png",
+      "startFrame": 1,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6277650648360031,
+      "anchorY": 0.620137299771167,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778428934129931_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.3111111111111111,
+          "y": 0.28888888888888886,
+          "width": 0.6,
+          "height": 0.6888888888888889
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 1,
+          "anchorX": 0.6277650648360031,
+          "anchorY": 0.620137299771167,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428934129931_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3111111111111111,
+              "y": 0.28888888888888886,
+              "width": 0.6,
+              "height": 0.6888888888888889
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5953470633104501,
+          "anchorY": 0.6430205949656751,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428939450313_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2,
+              "y": 0.3333333333333333,
+              "width": 0.7111111111111111,
+              "height": 0.6444444444444445
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.530511060259344,
+          "anchorY": 0.6525553012967201,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778428945189476_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.13333333333333333,
+              "y": 0.3333333333333333,
+              "width": 0.7333333333333333,
+              "height": 0.6444444444444445
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429051562239",
+      "name": "anim_swd_left_yellow",
+      "mediaFile": "media/sword_left_duck_yellow.png",
+      "startFrame": 1,
+      "endFrame": 3,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.623951182303585,
+      "anchorY": 0.6392067124332571,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778429066368514_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.3111111111111111,
+          "y": 0.28888888888888886,
+          "width": 0.6,
+          "height": 0.6888888888888889
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 1,
+          "anchorX": 0.623951182303585,
+          "anchorY": 0.6392067124332571,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429066368514_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3111111111111111,
+              "y": 0.28888888888888886,
+              "width": 0.6,
+              "height": 0.6888888888888889
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5781845919145691,
+          "anchorY": 0.6487414187643021,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429072218966_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2,
+              "y": 0.3333333333333333,
+              "width": 0.7111111111111111,
+              "height": 0.6444444444444445
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.507627765064836,
+          "anchorY": 0.6468344774980931,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429077829602_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.13333333333333333,
+              "y": 0.3333333333333333,
+              "width": 0.7333333333333333,
+              "height": 0.6444444444444445
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429130281478",
+      "name": "anim_swd_right_green",
+      "mediaFile": "media/sword_right_duck_green.png",
+      "startFrame": 0,
+      "endFrame": 2,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.5786613272311213,
+      "anchorY": 0.6601830663615561,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778429273368994_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.19999999999999996,
+          "y": 0.33,
+          "width": 0.8,
+          "height": 0.6666666666666666
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.5786613272311213,
+          "anchorY": 0.6601830663615561,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429273368994_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.19999999999999996,
+              "y": 0.33,
+              "width": 0.8,
+              "height": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5071510297482836,
+          "anchorY": 0.6926010678871091,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429176145016_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.20833333333333334,
+              "y": 0.3333333333333333,
+              "width": 0.6666666666666666,
+              "height": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.41597540045766584,
+          "anchorY": 0.6506483600305111,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429186227281_3",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.28888888888888886,
+              "width": 0.5416666666666666,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429230881687",
+      "name": "anim_swd_right_grey",
+      "mediaFile": "media/sword_right_duck_grey.png",
+      "startFrame": 0,
+      "endFrame": 2,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6340818077803203,
+      "anchorY": 0.6697177726926011,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778429250343863_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.29166666666666663,
+          "y": 0.3333333333333333,
+          "width": 0.7083333333333334,
+          "height": 0.6666666666666666
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.6340818077803203,
+          "anchorY": 0.6697177726926011,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429250343863_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.29166666666666663,
+              "y": 0.3333333333333333,
+              "width": 0.7083333333333334,
+              "height": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5536327231121281,
+          "anchorY": 0.6525553012967201,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429256161392_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.20833333333333334,
+              "y": 0.3333333333333333,
+              "width": 0.6666666666666666,
+              "height": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.42133867276887865,
+          "anchorY": 0.6392067124332571,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429260521484_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.28888888888888886,
+              "width": 0.5416666666666666,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429375763353",
+      "name": "anim_swd_right_orange",
+      "mediaFile": "media/sword_right_duck_orange.png",
+      "startFrame": 0,
+      "endFrame": 2,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6305062929061784,
+      "anchorY": 0.6639969488939741,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778429398260263_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.2708333333333333,
+          "y": 0.3333333333333333,
+          "width": 0.7083333333333334,
+          "height": 0.6666666666666666
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.6305062929061784,
+          "anchorY": 0.6639969488939741,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429398260263_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.2708333333333333,
+              "y": 0.3333333333333333,
+              "width": 0.7083333333333334,
+              "height": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5107265446224256,
+          "anchorY": 0.6468344774980931,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429403634854_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.1875,
+              "y": 0.3333333333333333,
+              "width": 0.6666666666666666,
+              "height": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.4177631578947368,
+          "anchorY": 0.6353928299008391,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429408373546_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.14583333333333334,
+              "y": 0.28888888888888886,
+              "width": 0.5625,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429461565209",
+      "name": "anim_swd_right_white",
+      "mediaFile": "media/sword_right_duck_white.png",
+      "startFrame": 0,
+      "endFrame": 2,
+      "fps": 7.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6769879862700229,
+      "anchorY": 0.6468344774980931,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778429479679273_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.3333333333333333,
+          "y": 0.3333333333333333,
+          "width": 0.6666666666666666,
+          "height": 0.6444444444444445
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.6769879862700229,
+          "anchorY": 0.6468344774980931,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429479679273_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.3333333333333333,
+              "width": 0.6666666666666666,
+              "height": 0.6444444444444445
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5786613272311213,
+          "anchorY": 0.6601830663615561,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429488516534_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.19999999999999996,
+              "y": 0.33,
+              "width": 0.8,
+              "height": 0.64
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.4302774599542334,
+          "anchorY": 0.6659038901601831,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429514506431_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.28888888888888886,
+              "width": 0.5625,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429612964985",
+      "name": "anim_swd_right_yellow",
+      "mediaFile": "media/sword_right_duck_yellow.png",
+      "startFrame": 0,
+      "endFrame": 2,
+      "fps": 7.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.6734124713958809,
+      "anchorY": 0.6639969488939741,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778429626801635_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.3333333333333333,
+          "y": 0.3333333333333333,
+          "width": 0.6666666666666666,
+          "height": 0.6444444444444445
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.6734124713958809,
+          "anchorY": 0.6639969488939741,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429626801635_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.3333333333333333,
+              "y": 0.3333333333333333,
+              "width": 0.6666666666666666,
+              "height": 0.6444444444444445
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5178775743707094,
+          "anchorY": 0.6754385964912281,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429630562983_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.1,
+              "y": 0.33,
+              "width": 0.8958333333333334,
+              "height": 0.6444444444444445
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.42133867276887865,
+          "anchorY": 0.6487414187643021,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778429671603323_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.16666666666666666,
+              "y": 0.28888888888888886,
+              "width": 0.5625,
+              "height": 0.6888888888888889
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778429983734254",
+      "name": "anim_swordd",
+      "mediaFile": "media/swoooord_2.png",
+      "startFrame": 0,
+      "endFrame": 2,
+      "fps": 3.0,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.5433257055682684,
+      "anchorY": 0.583905415713196,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778430006357581_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.34,
+          "y": 0.2535211267605634,
+          "width": 0.4,
+          "height": 0.7464788732394366
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.5433257055682684,
+          "anchorY": 0.583905415713196,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430006357581_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.34,
+              "y": 0.2535211267605634,
+              "width": 0.4,
+              "height": 0.7464788732394366
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5460335621662853,
+          "anchorY": 0.517162471395881,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430011445508_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.34,
+              "y": 0.15492957746478872,
+              "width": 0.4,
+              "height": 0.7464788732394366
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.5433257055682684,
+          "anchorY": 0.583905415713196,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430006357581_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.34,
+              "y": 0.2535211267605634,
+              "width": 0.4,
+              "height": 0.7464788732394366
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anim_1778430256832708",
+      "name": "heart_anim",
+      "mediaFile": "media/corazon_vida_3.png",
+      "startFrame": 0,
+      "endFrame": 3,
+      "fps": 2.5,
+      "loop": true,
+      "groupId": "__main__",
+      "anchorX": 0.5941075514874142,
+      "anchorY": 0.520976353928299,
+      "anchorColor": "red",
+      "hitBoxes": [
+        {
+          "id": "__hb_1778430298908883_0",
+          "name": "Hit Box 1",
+          "color": "green",
+          "x": 0.15,
+          "y": 0.14285714285714285,
+          "width": 0.85,
+          "height": 0.7619047619047619
+        }
+      ],
+      "frameRigs": [
+        {
+          "frame": 0,
+          "anchorX": 0.5941075514874142,
+          "anchorY": 0.520976353928299,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430298908883_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.15,
+              "y": 0.14285714285714285,
+              "width": 0.85,
+              "height": 0.7619047619047619
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "anchorX": 0.5941075514874142,
+          "anchorY": 0.520976353928299,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430298908883_0",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.15,
+              "y": 0.14285714285714285,
+              "width": 0.85,
+              "height": 0.7619047619047619
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "anchorX": 0.49599542334096114,
+          "anchorY": 0.51906941266209,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430307619594_1",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.05,
+              "y": 0.14285714285714285,
+              "width": 0.9,
+              "height": 0.7619047619047619
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "anchorX": 0.4499427917620137,
+          "anchorY": 0.51906941266209,
+          "anchorColor": "red",
+          "hitBoxes": [
+            {
+              "id": "__hb_1778430311778198_2",
+              "name": "Hit Box 1",
+              "color": "green",
+              "x": 0.0,
+              "y": 0.14285714285714285,
+              "width": 1.0,
+              "height": 0.74
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,7 @@
+const http = require('http');
 const WebSocket = require('ws');
 const winston = require('winston');
+const { handleWeb } = require('./endpointWeb');
 require('dotenv').config();
 
 const logger = winston.createLogger({
@@ -300,8 +302,9 @@ function tick() {
 setInterval(tick, 1000 / TICK_RATE);
 
 async function iniciarServidor() {
-  const wss = new WebSocket.Server({ port: SERVER_PORT });
-  logger.info(`Servidor arrancado en puerto ${SERVER_PORT}`);
+  const server = http.createServer(handleWeb);
+  const wss = new WebSocket.Server({ server });
+  server.listen(SERVER_PORT, () => logger.info(`Servidor arrancado en puerto ${SERVER_PORT}`));
 
   wss.on('connection', (ws) => {
     logger.info('Nuevo cliente conectado');

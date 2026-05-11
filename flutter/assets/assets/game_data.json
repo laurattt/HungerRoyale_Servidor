@@ -1,0 +1,628 @@
+{
+  "name": "duckgame",
+  "description": "",
+  "levels": [
+    {
+      "name": "level_000",
+      "description": "",
+      "gameplayData": "",
+      "layers": [
+        {
+          "name": "tilesets",
+          "gameplayData": "",
+          "x": 0,
+          "y": 0,
+          "depth": 0.0,
+          "tilesSheetFile": "media/tilsets_2.png",
+          "tilesWidth": 24,
+          "tilesHeight": 24,
+          "visible": true,
+          "groupId": "__main__",
+          "tileMapFile": "tilemaps/level_000_layer_000.json"
+        },
+        {
+          "name": "decoration",
+          "gameplayData": "",
+          "x": 0,
+          "y": 0,
+          "depth": 0.0,
+          "tilesSheetFile": "media/tileserORG_3.png",
+          "tilesWidth": 24,
+          "tilesHeight": 24,
+          "visible": true,
+          "groupId": "__main__",
+          "tileMapFile": "tilemaps/level_000_layer_001.json"
+        },
+        {
+          "name": "background",
+          "gameplayData": "",
+          "x": 0,
+          "y": 0,
+          "depth": 0.0,
+          "tilesSheetFile": "media/background_2.png",
+          "tilesWidth": 1140,
+          "tilesHeight": 562,
+          "visible": true,
+          "groupId": "__main__",
+          "tileMapFile": "tilemaps/level_000_layer_002.json"
+        }
+      ],
+      "layerGroups": [
+        {
+          "id": "__main__",
+          "name": "Main",
+          "collapsed": false
+        }
+      ],
+      "sprites": [
+        {
+          "name": "anim_stop_yellow_duck",
+          "gameplayData": "",
+          "type": "anim_stop_yellow_duck",
+          "animationId": "anim_1777919923689523",
+          "x": 151,
+          "y": 349,
+          "width": 30,
+          "height": 32,
+          "imageFile": "media/stop_yellow_duck.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_stop_white_duck",
+          "gameplayData": "",
+          "type": "anim_stop_white_duck",
+          "animationId": "anim_1778400701877455",
+          "x": 111,
+          "y": 157,
+          "width": 30,
+          "height": 32,
+          "imageFile": "media/stop_white_duck.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_stop_orange_duck",
+          "gameplayData": "",
+          "type": "anim_stop_orange_duck",
+          "animationId": "anim_1778400896063940",
+          "x": 923,
+          "y": 157,
+          "width": 30,
+          "height": 31,
+          "imageFile": "media/stop_orange_duck.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_stop_grey_duck",
+          "gameplayData": "",
+          "type": "anim_stop_grey_duck",
+          "animationId": "anim_1778401214413620",
+          "x": 950,
+          "y": 349,
+          "width": 30,
+          "height": 30,
+          "imageFile": "media/stop_grey_duck.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_stop_green_duck",
+          "gameplayData": "",
+          "type": "anim_stop_green_duck",
+          "animationId": "anim_1778401400611728",
+          "x": 558,
+          "y": 132,
+          "width": 30,
+          "height": 30,
+          "imageFile": "media/stop_green_duck.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_swordd_bg",
+          "gameplayData": "",
+          "type": "anim_swordd_bg",
+          "animationId": "anim_1778429983734254",
+          "x": 440,
+          "y": 211,
+          "width": 50,
+          "height": 71,
+          "imageFile": "media/swoooord_2.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_swordd_bg",
+          "gameplayData": "",
+          "type": "anim_swordd_bg",
+          "animationId": "anim_1778429983734254",
+          "x": 696,
+          "y": 211,
+          "width": 50,
+          "height": 71,
+          "imageFile": "media/swoooord_2.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_swordd_bg",
+          "gameplayData": "",
+          "type": "anim_swordd_bg",
+          "animationId": "anim_1778429983734254",
+          "x": 848,
+          "y": 259,
+          "width": 50,
+          "height": 71,
+          "imageFile": "media/swoooord_2.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_swordd_bg",
+          "gameplayData": "",
+          "type": "anim_swordd_bg",
+          "animationId": "anim_1778429983734254",
+          "x": 568,
+          "y": 357,
+          "width": 50,
+          "height": 71,
+          "imageFile": "media/swoooord_2.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "anim_swordd_bg",
+          "gameplayData": "",
+          "type": "anim_swordd_bg",
+          "animationId": "anim_1778429983734254",
+          "x": 285,
+          "y": 259,
+          "width": 50,
+          "height": 71,
+          "imageFile": "media/swoooord_2.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "hearttt",
+          "gameplayData": "",
+          "type": "hearttt",
+          "animationId": "anim_1778430256832708",
+          "x": 564,
+          "y": 232,
+          "width": 20,
+          "height": 21,
+          "imageFile": "media/corazon_vida_3.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "hearttt",
+          "gameplayData": "",
+          "type": "hearttt",
+          "animationId": "anim_1778430256832708",
+          "x": 563,
+          "y": 449,
+          "width": 20,
+          "height": 21,
+          "imageFile": "media/corazon_vida_3.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "hearttt",
+          "gameplayData": "",
+          "type": "hearttt",
+          "animationId": "anim_1778430256832708",
+          "x": 852,
+          "y": 418,
+          "width": 20,
+          "height": 21,
+          "imageFile": "media/corazon_vida_3.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        },
+        {
+          "name": "hearttt",
+          "gameplayData": "",
+          "type": "hearttt",
+          "animationId": "anim_1778430256832708",
+          "x": 276,
+          "y": 418,
+          "width": 20,
+          "height": 21,
+          "imageFile": "media/corazon_vida_3.png",
+          "flipX": false,
+          "flipY": false,
+          "depth": 0.0,
+          "groupId": "__main__"
+        }
+      ],
+      "spriteGroups": [
+        {
+          "id": "__main__",
+          "name": "Main",
+          "collapsed": false
+        }
+      ],
+      "groupId": "__main__",
+      "viewportWidth": 320,
+      "viewportHeight": 180,
+      "viewportX": 0,
+      "viewportY": 0,
+      "viewportAdaptation": "letterbox",
+      "viewportInitialColor": "green",
+      "viewportPreviewColor": "blue",
+      "backgroundColorHex": "#DCDCE1",
+      "depthSensitivity": 0.08,
+      "zonesFile": "zones/level_000_zones.json",
+      "pathsFile": "paths/level_000_paths.json"
+    }
+  ],
+  "levelGroups": [
+    {
+      "id": "__main__",
+      "name": "Main",
+      "collapsed": false
+    }
+  ],
+  "mediaAssets": [
+    {
+      "name": "stop_yellow_duck",
+      "fileName": "media/stop_yellow_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 32,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "tilsets_bg",
+      "fileName": "media/tilsets_2.png",
+      "mediaType": "tileset",
+      "tileWidth": 24,
+      "tileHeight": 24,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "background",
+      "fileName": "media/background_2.png",
+      "mediaType": "tileset",
+      "tileWidth": 1140,
+      "tileHeight": 562,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "tillsetsORG",
+      "fileName": "media/tileserORG_3.png",
+      "mediaType": "tileset",
+      "tileWidth": 24,
+      "tileHeight": 24,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "stop_white_duck",
+      "fileName": "media/stop_white_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 32,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "stop_orange_duck",
+      "fileName": "media/stop_orange_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "stop_grey_duck",
+      "fileName": "media/stop_grey_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 30,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "stop_green_duck",
+      "fileName": "media/stop_green_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 30,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "right_yellow_duck",
+      "fileName": "media/right_yellow_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "right_white_duck",
+      "fileName": "media/right_white_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "right_orange_duck",
+      "fileName": "media/orange_duck_right.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "right_grey_duck",
+      "fileName": "media/right_grey_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 28,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "right_green_duck",
+      "fileName": "media/right_green_duck (1).png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 28,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "left_yellow_duck",
+      "fileName": "media/left_yellow_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "left_white_duck",
+      "fileName": "media/left_white_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "left_orange_duck",
+      "fileName": "media/orange_duck_left.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 31,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "left_grey_duck",
+      "fileName": "media/left_grey_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 28,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "left_green_duck",
+      "fileName": "media/left_green_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 28,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "die_yellow_duck",
+      "fileName": "media/die_yellow_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 20,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "die_white_duck",
+      "fileName": "media/die_white_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 20,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "die_orange_duck",
+      "fileName": "media/die_orange_duck.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 19,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "die_duck_grey",
+      "fileName": "media/die_duck_grey.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 31,
+      "tileHeight": 20,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "die_duck_green",
+      "fileName": "media/die_duck_green (1).png",
+      "mediaType": "spritesheet",
+      "tileWidth": 30,
+      "tileHeight": 20,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_left_duck_green",
+      "fileName": "media/sword_left_duck_green.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 45,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_left_duck_grey",
+      "fileName": "media/sword_left_duck_grey.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 45,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_left_duck_orange",
+      "fileName": "media/sword_left_duck_orange.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 45,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_left_duck_white",
+      "fileName": "media/sword_left_duck_white.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 45,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_left_duck_yellow",
+      "fileName": "media/sword_left_duck_yellow.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 45,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_right_duck_green",
+      "fileName": "media/sword_right_duck_green.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 48,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_right_duck_grey",
+      "fileName": "media/sword_right_duck_grey.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 48,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_right_duck_orange",
+      "fileName": "media/sword_right_duck_orange.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 48,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_right_duck_white",
+      "fileName": "media/sword_right_duck_white.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 48,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "sword_right_duck_yellow",
+      "fileName": "media/sword_right_duck_yellow.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 48,
+      "tileHeight": 45,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "swoooord_2",
+      "fileName": "media/swoooord_2.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 50,
+      "tileHeight": 71,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
+      "name": "corazon_vida_uppp",
+      "fileName": "media/corazon_vida_3.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 20,
+      "tileHeight": 21,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    }
+  ],
+  "mediaGroups": [
+    {
+      "id": "__main__",
+      "name": "Main",
+      "collapsed": false
+    }
+  ],
+  "zoneTypes": [
+    {
+      "name": "Default",
+      "color": "blue"
+    }
+  ],
+  "animationsFile": "animations/animations.json"
+}
